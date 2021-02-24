@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_general"
+        android:orientation="vertical" >
+
+        
+        
+        <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/pager"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent" >				    
+		</android.support.v4.view.ViewPager>
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/drawerlist"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:background="#ff999966" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+		    	<Button 
+		    	    android:id="@+id/btn_choosenovel"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="উপন্যাস"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosepoem"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="কাব্য, কবিতা ও গান"/>
+		    	<Button 
+		    	    android:id="@+id/btn_chooseshortstory"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="ছোটগল্প"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosearticle"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="প্রবন্ধ ও প্রতিবেদন"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosehistory"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="ইতিহাস ও সভ্যতা"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosechildren"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="শিশুদের বই"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosepolitics"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="রাজনীতি ও সমাজনীতি"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosescience"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="বিজ্ঞান ও গণিত"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosemagazine"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="পত্রিকা"/>
+		    	<Button 
+		    	    android:id="@+id/btn_chooseeducational"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="শিক্ষামূলক"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosereligion"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="ধর্ম ও দর্শন"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosebiography"
+		    	    android:layout_width="match_parent"
+		    	    android:textSize="12dp"
+		        	android:layout_height="40dp"
+		        	android:background="#00000000"
+		        	android:text="জীবনী ও স্মৃতিকথা"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosefood"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="রান্না ও খাদ্য"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosearts"
+		    	    android:layout_width="match_parent"
+		        	android:layout_height="40dp"
+		        	android:textSize="12dp"
+		        	android:background="#00000000"
+		        	android:text="শিল্প ও সাহিত্য"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosedrama"
+		    	    android:layout_width="match_parent"
+		    	    android:textSize="12dp"
+		        	android:layout_height="40dp"
+		        	android:background="#00000000"
+		        	android:text="নাটক"/>
+		    	<Button 
+		    	    android:id="@+id/btn_choosevarious"
+		    	    android:layout_width="match_parent"
+		    	    android:textSize="12dp"
+		        	android:layout_height="40dp"
+		        	android:background="#00000000"
+		        	android:text="বিবিধ"/>
+		    	
+				<Button 
+		    	    android:id="@+id/btn_refresh"
+		    	    android:layout_width="match_parent"
+		    	    android:textSize="12dp"
+		        	android:layout_height="40dp"
+		        	android:background="#00000000"
+		        	android:text="Refresh"/>
+            </LinearLayout>
+        </ScrollView>
+</android.support.v4.widget.DrawerLayout>

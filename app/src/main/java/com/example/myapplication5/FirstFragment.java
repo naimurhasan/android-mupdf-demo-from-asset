@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import com.artifex.mupdf.viewer.DocumentActivity;
+import com.artifex.mupdfdemo.MuPDFActivity;
 
 import java.io.File;
 
@@ -40,7 +40,7 @@ public class FirstFragment extends Fragment {
     }
 
     public void startMuPDFActivity(Uri documentUri) {
-        Intent intent = new Intent(getContext(), DocumentActivity.class);
+        Intent intent = new Intent(getContext(), MuPDFActivity.class);
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(documentUri);
         startActivity(intent);

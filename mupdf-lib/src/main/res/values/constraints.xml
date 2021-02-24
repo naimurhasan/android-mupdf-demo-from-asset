@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="NO_OF_READABLE_BOOK">5</integer>
+    
+    <integer-array name="EBOOK_PDF_FILES_ARRAY">
+          <item>@drawable/test1</item>
+          <item>@drawable/test2</item>
+          <item>@drawable/test3</item>
+          
+          <item>@drawable/test4</item>
+          <item>@drawable/test5</item>
+          <item>@drawable/test6</item>
+          
+          <item>@drawable/empty</item>
+          <item>@drawable/empty</item>
+          <item>@drawable/empty</item>
+     </integer-array>
+     
+    <string-array name="EBOOK_PDF_FILE_NAME_ARRAY">
+		<item>test1.pdf</item>
+		<item>test2.pdf</item>
+		<item>test3.pdf</item>
+		
+		<item>test4.pdf</item>
+		<item>test5.pdf</item>
+		<item>test6.pdf</item>
+		
+	</string-array>
+</resources>

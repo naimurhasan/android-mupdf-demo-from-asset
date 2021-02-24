@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView android:layout_width="85dp"
+	        android:layout_height="wrap_content"
+	        android:padding="3dp"
+	        android:text="Category"
+	        android:textSize="18dp"
+	        />
+	    <Spinner
+	        android:id="@+id/spinner_category" 
+	        android:prompt="@string/spinner_category"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView android:layout_width="85dp"
+	        android:layout_height="wrap_content"
+	        android:padding="3dp"
+	        android:text="Author"
+	        android:textSize="18dp"
+	        />
+	    <Spinner
+	        android:id="@+id/spinner_author" 
+	        android:prompt="@string/spinner_author"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView android:layout_width="85dp"
+	        android:layout_height="wrap_content"
+	        android:padding="3dp"
+	        android:text="Publisher"
+	        android:textSize="18dp"
+	        />
+	    <Spinner
+	        android:id="@+id/spinner_publisher" 
+	        android:prompt="@string/spinner_book"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView android:layout_width="85dp"
+	        android:layout_height="wrap_content"
+	        android:padding="3dp"
+	        android:text="Book"
+	        android:textSize="18dp"
+	        />
+	    <Spinner
+	        android:id="@+id/spinner_book" 
+	        android:prompt="@string/spinner_book"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<Button 
+	    android:id="@+id/btn_search"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Search" />
+	
+</LinearLayout>

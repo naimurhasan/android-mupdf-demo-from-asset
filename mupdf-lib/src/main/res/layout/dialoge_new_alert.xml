@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical" >
+    
+	<TextView
+	        android:id="@+id/tv_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/imageView1"
+	        android:layout_marginLeft="10dp"
+	        android:textSize="20dp"
+	        android:layout_toRightOf="@+id/img_cover"
+	        android:text="TextView" />
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+	    <ImageView
+	        android:id="@+id/img_cover"
+	        android:layout_width="80dp"
+	        android:layout_height="110dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/background_general" />
+	
+	    <TextView
+	        android:id="@+id/tv_authur"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/imageView1"
+	        android:layout_marginLeft="10dp"
+	        android:layout_toRightOf="@+id/img_cover"
+	        android:text="TextView" />
+	    <TextView
+	        android:id="@+id/tv_publisher"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="3dp"
+	        android:layout_alignLeft="@+id/tv_authur"
+	        android:layout_below="@+id/tv_authur"
+	        android:text="TextView" />
+	    <TextView
+	        android:id="@+id/tv_pages"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="3dp"
+	        android:layout_alignLeft="@+id/tv_publisher"
+	        android:layout_below="@+id/tv_publisher"
+	        android:text="TextView" />
+	    <TextView
+	        android:id="@+id/price_bdt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/tv_pages"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="20dp"
+	        android:text="TextView" />
+	    <TextView
+	        android:id="@+id/price_usd"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/tv_pages"
+	        android:layout_below="@+id/tv_pages"
+	        android:layout_marginTop="3dp"
+	        android:text="TextView" />
+	    <TextView
+	        android:id="@+id/price_gbp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/price_usd"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="20dp"
+	        android:text="TextView" />
+	    <TextView
+	        android:id="@+id/price_volume"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/price_usd"
+	        android:layout_alignLeft="@+id/price_usd"
+	        android:layout_marginTop="3dp"
+	        android:layout_marginRight="20dp"
+	        android:text="TextView" />
+	</RelativeLayout>
+
+	<Button
+        android:id="@+id/btn_purchase"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="Purchase" />
+    <Button
+        android:id="@+id/btn_token"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="Token" />
+    <Button
+        android:id="@+id/btn_sample"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:text="Sample" />
+</LinearLayout>

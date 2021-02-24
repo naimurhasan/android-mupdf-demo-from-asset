@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_general" 
+    android:weightSum="100"
+    android:id="@+id/linearLayoutSecurityEnableParent" >
+
+    
+   
+	<LinearLayout android:id="@+id/linearLayoutTextEntryDisplay" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:orientation="vertical"
+	android:layout_gravity="center_horizontal">
+
+	   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/security_enable_enter_text"
+        android:textSize="30sp"   />
+	   
+	   <EditText
+	    android:id="@+id/editTextSecurityEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="50"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="text"/>
+	    
+	</LinearLayout>
+	
+	<Button android:id="@+id/securityEnableButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/security_enable_button_text"
+        android:onClick="sendMessage" />
+	 
+	 <TextView
+	    android:id="@+id/textViewSecurityEnableErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/red_color"   />
+
+</LinearLayout>

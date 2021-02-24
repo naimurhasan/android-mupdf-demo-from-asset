@@ -4,19 +4,19 @@ ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main
 INJECTED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:2:1-98:12
 INJECTED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:2:1-98:12
 	package
-		ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:3:2-36
+		ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:3:2-33
 		INJECTED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:5:2-97:16
-activity#com.artifex.mupdf.viewer.DocumentActivity
+activity#com.artifex.mupdfdemo.MuPDFActivity
 ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:6:3-91:14
 	android:configChanges
 		ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:8:4-65
 	android:name
-		ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:7:4-36
+		ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:7:4-33
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/epub+zip+data:mimeType:application/oxps+data:mimeType:application/pdf+data:mimeType:application/vnd.comicbook+zip+data:mimeType:application/vnd.ms-xpsdocument+data:mimeType:application/x-cbz+data:mimeType:application/x-fictionbook+data:mimeType:text/xml+data:scheme:content+data:scheme:file
 ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:10:4-25:20
 action#android.intent.action.VIEW
@@ -45,7 +45,7 @@ intent-filter#action:name:android.intent.action.VIEW+category:name:android.inten
 ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:26:4-57:20
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\..*\\..*\\.cbz+data:pathPattern:.*\\..*\\..*\\..*\\.epub+data:pathPattern:.*\\..*\\..*\\..*\\.fb2+data:pathPattern:.*\\..*\\..*\\..*\\.oxps+data:pathPattern:.*\\..*\\..*\\..*\\.pdf+data:pathPattern:.*\\..*\\..*\\..*\\.xps+data:pathPattern:.*\\..*\\..*\\.cbz+data:pathPattern:.*\\..*\\..*\\.epub+data:pathPattern:.*\\..*\\..*\\.fb2+data:pathPattern:.*\\..*\\..*\\.oxps+data:pathPattern:.*\\..*\\..*\\.pdf+data:pathPattern:.*\\..*\\..*\\.xps+data:pathPattern:.*\\..*\\.cbz+data:pathPattern:.*\\..*\\.epub+data:pathPattern:.*\\..*\\.fb2+data:pathPattern:.*\\..*\\.oxps+data:pathPattern:.*\\..*\\.pdf+data:pathPattern:.*\\..*\\.xps+data:pathPattern:.*\\.cbz+data:pathPattern:.*\\.epub+data:pathPattern:.*\\.fb2+data:pathPattern:.*\\.oxps+data:pathPattern:.*\\.pdf+data:pathPattern:.*\\.xps+data:scheme:file
 ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:58:4-90:20
-activity#com.artifex.mupdf.viewer.OutlineActivity
+activity#com.artifex.mupdfdemo.OutlineActivity
 ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:92:3-96:14
 	android:configChanges
 		ADDED from C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:94:4-65

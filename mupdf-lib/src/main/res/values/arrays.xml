@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ebook_security_tokens">
+        <item>cgd1</item>
+        <item>cgd2</item>
+        <item>cgd3</item>
+        <item>cgd4</item>
+        <item>cgd5</item>
+        <item>yzaman</item>
+    </string-array>
+</resources>

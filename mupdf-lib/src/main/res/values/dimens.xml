@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_font_size">24pt</dimen>
+    <dimen name="splash_middle_title_text_font_size">10pt</dimen>
+    <dimen name="version_text_font_size">5pt</dimen>
+    <dimen name="line_spacing">3pt</dimen>
+    <dimen name="menu_title_text_size">12pt</dimen>
+    <dimen name="menu_item_text_size">12pt</dimen>
+    <dimen name="menu_item_hover_text_size">11pt</dimen>
+    <dimen name="label_text_size">10pt</dimen>
+    
+    <dimen name="menu_space_control_text_size">20pt</dimen>
+    <dimen name="menu_top_margin">45dip</dimen>
+</resources>

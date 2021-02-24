@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.artifex.mupdf.viewer" >
+3    package="com.artifex.mupdfdemo" >
 4
 5    <uses-sdk
 6        android:minSdkVersion="16"
@@ -12,8 +12,8 @@
 9-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:5:2-97:16
 10        <activity
 10-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:6:3-91:14
-11            android:name="com.artifex.mupdf.viewer.DocumentActivity"
-11-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:7:4-36
+11            android:name="com.artifex.mupdfdemo.MuPDFActivity"
+11-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:7:4-33
 12            android:configChanges="orientation|screenSize|keyboardHidden" >
 12-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:8:4-65
 13            <intent-filter>
@@ -256,7 +256,7 @@
 103        </activity>
 104        <activity
 104-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:92:3-96:14
-105            android:name="com.artifex.mupdf.viewer.OutlineActivity"
+105            android:name="com.artifex.mupdfdemo.OutlineActivity"
 105-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:93:4-35
 106            android:configChanges="orientation|screenSize|keyboardHidden" >
 106-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:94:4-65

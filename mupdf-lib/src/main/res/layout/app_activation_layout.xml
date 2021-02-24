@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="#ff2a1703"
+      android:fadingEdge="horizontal"
+      android:gravity="top">
+     <TextView
+            android:id="@+id/textViewActivationTitle"
+            android:text="Activate Application"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dip"
+            android:textSize="22sp" >
+     </TextView>
+     <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="220dip"
+            android:layout_marginTop="10dp"
+            android:layout_below ="@+id/textViewActivationTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:textStyle="italic">
+     </EditText>
+     <EditText
+            android:id="@+id/editTextTokenNumber"
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:hint="Token Number"
+            android:textSize="18sp"
+            android:typeface="sans"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_below ="@+id/editTextEmailAddress"
+            android:layout_centerHorizontal="true">
+     </EditText>
+     <Button
+            android:id="@+id/buttonActivate"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="Activate"
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below ="@+id/editTextTokenNumber"
+            android:layout_centerHorizontal="true">
+     </Button>
+     <Button
+            android:id="@+id/buttonEnjoyApp"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="Enjoy"
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_below ="@+id/editTextTokenNumber"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible">
+     </Button>
+     <TextView
+	    android:id="@+id/textViewEnableErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="@color/red_color"   
+        android:layout_below ="@+id/buttonActivate"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
+

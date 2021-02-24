@@ -1,72 +1,236 @@
-com/artifex/mupdf/viewer/OutlineActivity.java
- com.artifex.mupdf.viewer.OutlineActivity
- com.artifex.mupdf.viewer.OutlineActivity$Item
-com/artifex/mupdf/viewer/ReaderView.java
- com.artifex.mupdf.viewer.ReaderView
- com.artifex.mupdf.viewer.ReaderView$1
- com.artifex.mupdf.viewer.ReaderView$2
- com.artifex.mupdf.viewer.ReaderView$ViewMapper
-com/artifex/mupdf/viewer/SearchTask.java
- com.artifex.mupdf.viewer.ProgressDialogX
- com.artifex.mupdf.viewer.SearchTask
- com.artifex.mupdf.viewer.SearchTask$1
- com.artifex.mupdf.viewer.SearchTask$2
- com.artifex.mupdf.viewer.SearchTask$2$1
-com/artifex/mupdf/viewer/BuildConfig.java
- com.artifex.mupdf.viewer.BuildConfig
-com/artifex/mupdf/viewer/PageView.java
- com.artifex.mupdf.viewer.OpaqueImageView
- com.artifex.mupdf.viewer.PageView
- com.artifex.mupdf.viewer.PageView$1
- com.artifex.mupdf.viewer.PageView$2
- com.artifex.mupdf.viewer.PageView$2$1
- com.artifex.mupdf.viewer.PageView$3
- com.artifex.mupdf.viewer.PageView$4
- com.artifex.mupdf.viewer.PageView$5
- com.artifex.mupdf.viewer.PageView$6
- com.artifex.mupdf.viewer.PageView$7
-com/artifex/mupdf/viewer/SearchTaskResult.java
- com.artifex.mupdf.viewer.SearchTaskResult
-com/artifex/mupdf/viewer/Stepper.java
- com.artifex.mupdf.viewer.Stepper
- com.artifex.mupdf.viewer.Stepper$1
- com.artifex.mupdf.viewer.Stepper$2
-com/artifex/mupdf/viewer/CancellableTaskDefinition.java
- com.artifex.mupdf.viewer.CancellableTaskDefinition
-com/artifex/mupdf/viewer/MuPDFCore.java
- com.artifex.mupdf.viewer.MuPDFCore
-com/artifex/mupdf/viewer/DocumentActivity.java
- com.artifex.mupdf.viewer.DocumentActivity
- com.artifex.mupdf.viewer.DocumentActivity$1
- com.artifex.mupdf.viewer.DocumentActivity$10
- com.artifex.mupdf.viewer.DocumentActivity$11
- com.artifex.mupdf.viewer.DocumentActivity$12
- com.artifex.mupdf.viewer.DocumentActivity$13
- com.artifex.mupdf.viewer.DocumentActivity$14
- com.artifex.mupdf.viewer.DocumentActivity$15
- com.artifex.mupdf.viewer.DocumentActivity$16
- com.artifex.mupdf.viewer.DocumentActivity$17
- com.artifex.mupdf.viewer.DocumentActivity$18
- com.artifex.mupdf.viewer.DocumentActivity$19
- com.artifex.mupdf.viewer.DocumentActivity$2
- com.artifex.mupdf.viewer.DocumentActivity$20
- com.artifex.mupdf.viewer.DocumentActivity$21
- com.artifex.mupdf.viewer.DocumentActivity$22
- com.artifex.mupdf.viewer.DocumentActivity$23
- com.artifex.mupdf.viewer.DocumentActivity$24
- com.artifex.mupdf.viewer.DocumentActivity$3
- com.artifex.mupdf.viewer.DocumentActivity$4
- com.artifex.mupdf.viewer.DocumentActivity$5
- com.artifex.mupdf.viewer.DocumentActivity$6
- com.artifex.mupdf.viewer.DocumentActivity$7
- com.artifex.mupdf.viewer.DocumentActivity$8
- com.artifex.mupdf.viewer.DocumentActivity$9
- com.artifex.mupdf.viewer.DocumentActivity$TopBarMode
-com/artifex/mupdf/viewer/CancellableAsyncTask.java
- com.artifex.mupdf.viewer.CancellableAsyncTask
- com.artifex.mupdf.viewer.CancellableAsyncTask$1
-com/artifex/mupdf/viewer/PageAdapter.java
- com.artifex.mupdf.viewer.PageAdapter
- com.artifex.mupdf.viewer.PageAdapter$1
-com/artifex/mupdf/viewer/MuPDFCancellableTaskDefinition.java
- com.artifex.mupdf.viewer.MuPDFCancellableTaskDefinition
+com/artifex/mupdfdemo/ArrayDeque.java
+ com.artifex.mupdfdemo.ArrayDeque
+ com.artifex.mupdfdemo.ArrayDeque$1
+ com.artifex.mupdfdemo.ArrayDeque$DeqIterator
+ com.artifex.mupdfdemo.ArrayDeque$DescendingIterator
+com/artifex/mupdfdemo/CancellableTaskDefinition.java
+ com.artifex.mupdfdemo.CancellableTaskDefinition
+com/cgd/ebook/boighor/model/TempBook.java
+ com.cgd.ebook.boighor.model.TempBook
+com/artifex/mupdfdemo/LinkInfoExternal.java
+ com.artifex.mupdfdemo.LinkInfoExternal
+com/artifex/mupdfdemo/SearchTask.java
+ com.artifex.mupdfdemo.ProgressDialogX
+ com.artifex.mupdfdemo.SearchTask
+ com.artifex.mupdfdemo.SearchTask$1
+ com.artifex.mupdfdemo.SearchTask$2
+ com.artifex.mupdfdemo.SearchTask$2$1
+com/artifex/mupdfdemo/MuPDFPageView.java
+ com.artifex.mupdfdemo.MuPDFPageView
+ com.artifex.mupdfdemo.MuPDFPageView$1
+ com.artifex.mupdfdemo.MuPDFPageView$10
+ com.artifex.mupdfdemo.MuPDFPageView$11
+ com.artifex.mupdfdemo.MuPDFPageView$11$1
+ com.artifex.mupdfdemo.MuPDFPageView$12
+ com.artifex.mupdfdemo.MuPDFPageView$13
+ com.artifex.mupdfdemo.MuPDFPageView$14
+ com.artifex.mupdfdemo.MuPDFPageView$15
+ com.artifex.mupdfdemo.MuPDFPageView$16
+ com.artifex.mupdfdemo.MuPDFPageView$17
+ com.artifex.mupdfdemo.MuPDFPageView$18
+ com.artifex.mupdfdemo.MuPDFPageView$19
+ com.artifex.mupdfdemo.MuPDFPageView$2
+ com.artifex.mupdfdemo.MuPDFPageView$2$1
+ com.artifex.mupdfdemo.MuPDFPageView$20
+ com.artifex.mupdfdemo.MuPDFPageView$21
+ com.artifex.mupdfdemo.MuPDFPageView$3
+ com.artifex.mupdfdemo.MuPDFPageView$4
+ com.artifex.mupdfdemo.MuPDFPageView$4$1
+ com.artifex.mupdfdemo.MuPDFPageView$5
+ com.artifex.mupdfdemo.MuPDFPageView$6
+ com.artifex.mupdfdemo.MuPDFPageView$7
+ com.artifex.mupdfdemo.MuPDFPageView$8
+ com.artifex.mupdfdemo.MuPDFPageView$9
+ com.artifex.mupdfdemo.MuPDFPageView$9$1
+ com.artifex.mupdfdemo.PassClickResult
+ com.artifex.mupdfdemo.PassClickResultChoice
+ com.artifex.mupdfdemo.PassClickResultSignature
+ com.artifex.mupdfdemo.PassClickResultText
+ com.artifex.mupdfdemo.PassClickResultVisitor
+ com.artifex.mupdfdemo.SignatureState
+com/artifex/mupdfdemo/MuPDFCore.java
+ com.artifex.mupdfdemo.MuPDFCore
+ com.artifex.mupdfdemo.MuPDFCore$1
+ com.artifex.mupdfdemo.MuPDFCore$Cookie
+com/artifex/mupdfdemo/PageView.java
+ com.artifex.mupdfdemo.OpaqueImageView
+ com.artifex.mupdfdemo.PageView
+ com.artifex.mupdfdemo.PageView$1
+ com.artifex.mupdfdemo.PageView$2
+ com.artifex.mupdfdemo.PageView$2$1
+ com.artifex.mupdfdemo.PageView$3
+ com.artifex.mupdfdemo.PageView$3$1
+ com.artifex.mupdfdemo.PageView$4
+ com.artifex.mupdfdemo.PageView$5
+ com.artifex.mupdfdemo.PageView$6
+ com.artifex.mupdfdemo.TextProcessor
+ com.artifex.mupdfdemo.TextSelector
+com/artifex/mupdfdemo/SafeAnimatorInflater.java
+ com.artifex.mupdfdemo.SafeAnimatorInflater
+ com.artifex.mupdfdemo.SafeAnimatorInflater$1
+com/artifex/mupdfdemo/MuPDFReaderView.java
+ com.artifex.mupdfdemo.MuPDFReaderView
+ com.artifex.mupdfdemo.MuPDFReaderView$1
+ com.artifex.mupdfdemo.MuPDFReaderView$2
+ com.artifex.mupdfdemo.MuPDFReaderView$2$1
+ com.artifex.mupdfdemo.MuPDFReaderView$3
+ com.artifex.mupdfdemo.MuPDFReaderView$Mode
+com/artifex/mupdfdemo/ReaderView.java
+ com.artifex.mupdfdemo.ReaderView
+ com.artifex.mupdfdemo.ReaderView$1
+ com.artifex.mupdfdemo.ReaderView$2
+ com.artifex.mupdfdemo.ReaderView$3
+ com.artifex.mupdfdemo.ReaderView$4
+ com.artifex.mupdfdemo.ReaderView$ViewMapper
+com/artifex/mupdfdemo/AsyncTask.java
+ com.artifex.mupdfdemo.AsyncTask
+ com.artifex.mupdfdemo.AsyncTask$1
+ com.artifex.mupdfdemo.AsyncTask$2
+ com.artifex.mupdfdemo.AsyncTask$3
+ com.artifex.mupdfdemo.AsyncTask$4
+ com.artifex.mupdfdemo.AsyncTask$AsyncTaskResult
+ com.artifex.mupdfdemo.AsyncTask$InternalHandler
+ com.artifex.mupdfdemo.AsyncTask$SerialExecutor
+ com.artifex.mupdfdemo.AsyncTask$SerialExecutor$1
+ com.artifex.mupdfdemo.AsyncTask$Status
+ com.artifex.mupdfdemo.AsyncTask$WorkerRunnable
+com/artifex/mupdfdemo/CancellableAsyncTask.java
+ com.artifex.mupdfdemo.CancellableAsyncTask
+ com.artifex.mupdfdemo.CancellableAsyncTask$1
+com/artifex/mupdfdemo/MuPDFView.java
+ com.artifex.mupdfdemo.Hit
+ com.artifex.mupdfdemo.MuPDFView
+com/artifex/mupdfdemo/TextChar.java
+ com.artifex.mupdfdemo.TextChar
+com/artifex/mupdfdemo/MuPDFAlertInternal.java
+ com.artifex.mupdfdemo.MuPDFAlertInternal
+com/artifex/mupdfdemo/ChoosePDFItem.java
+ com.artifex.mupdfdemo.ChoosePDFItem
+ com.artifex.mupdfdemo.ChoosePDFItem$Type
+com/artifex/mupdfdemo/SearchTaskResult.java
+ com.artifex.mupdfdemo.SearchTaskResult
+com/cgd/ebook/boighor/lib/XMLDOMParser.java
+ com.cgd.ebook.boighor.lib.XMLDOMParser
+com/artifex/mupdfdemo/OutlineActivityData.java
+ com.artifex.mupdfdemo.OutlineActivityData
+com/cgd/ebook/boighor/lib/Xiaolong.java
+ com.cgd.ebook.boighor.lib.Xiaolong
+com/artifex/mupdfdemo/OutlineAdapter.java
+ com.artifex.mupdfdemo.OutlineAdapter
+com/artifex/mupdfdemo/LinkInfo.java
+ com.artifex.mupdfdemo.LinkInfo
+com/cgd/ebook/boighor/lib/EBOOKConstraints.java
+ com.cgd.ebook.boighor.lib.EBOOKConstraints
+com/artifex/mupdfdemo/Deque.java
+ com.artifex.mupdfdemo.Deque
+com/artifex/mupdfdemo/MuPDFActivity.java
+ com.artifex.mupdfdemo.MuPDFActivity
+ com.artifex.mupdfdemo.MuPDFActivity$1
+ com.artifex.mupdfdemo.MuPDFActivity$1$1
+ com.artifex.mupdfdemo.MuPDFActivity$1$2
+ com.artifex.mupdfdemo.MuPDFActivity$10
+ com.artifex.mupdfdemo.MuPDFActivity$11
+ com.artifex.mupdfdemo.MuPDFActivity$12
+ com.artifex.mupdfdemo.MuPDFActivity$13
+ com.artifex.mupdfdemo.MuPDFActivity$14
+ com.artifex.mupdfdemo.MuPDFActivity$15
+ com.artifex.mupdfdemo.MuPDFActivity$16
+ com.artifex.mupdfdemo.MuPDFActivity$17
+ com.artifex.mupdfdemo.MuPDFActivity$18
+ com.artifex.mupdfdemo.MuPDFActivity$19
+ com.artifex.mupdfdemo.MuPDFActivity$2
+ com.artifex.mupdfdemo.MuPDFActivity$20
+ com.artifex.mupdfdemo.MuPDFActivity$21
+ com.artifex.mupdfdemo.MuPDFActivity$22
+ com.artifex.mupdfdemo.MuPDFActivity$23
+ com.artifex.mupdfdemo.MuPDFActivity$24
+ com.artifex.mupdfdemo.MuPDFActivity$25
+ com.artifex.mupdfdemo.MuPDFActivity$26
+ com.artifex.mupdfdemo.MuPDFActivity$26$1
+ com.artifex.mupdfdemo.MuPDFActivity$27
+ com.artifex.mupdfdemo.MuPDFActivity$28
+ com.artifex.mupdfdemo.MuPDFActivity$28$1
+ com.artifex.mupdfdemo.MuPDFActivity$29
+ com.artifex.mupdfdemo.MuPDFActivity$3
+ com.artifex.mupdfdemo.MuPDFActivity$4
+ com.artifex.mupdfdemo.MuPDFActivity$5
+ com.artifex.mupdfdemo.MuPDFActivity$6
+ com.artifex.mupdfdemo.MuPDFActivity$7
+ com.artifex.mupdfdemo.MuPDFActivity$8
+ com.artifex.mupdfdemo.MuPDFActivity$9
+ com.artifex.mupdfdemo.MuPDFActivity$AcceptMode
+ com.artifex.mupdfdemo.MuPDFActivity$TopBarMode
+ com.artifex.mupdfdemo.ThreadPerTaskExecutor
+com/artifex/mupdfdemo/LinkInfoVisitor.java
+ com.artifex.mupdfdemo.LinkInfoVisitor
+com/artifex/mupdfdemo/TextWord.java
+ com.artifex.mupdfdemo.TextWord
+com/artifex/mupdfdemo/MuPDFPageAdapter.java
+ com.artifex.mupdfdemo.MuPDFPageAdapter
+ com.artifex.mupdfdemo.MuPDFPageAdapter$1
+com/artifex/mupdfdemo/LinkInfoRemote.java
+ com.artifex.mupdfdemo.LinkInfoRemote
+com/artifex/mupdfdemo/MuPDFCancellableTaskDefinition.java
+ com.artifex.mupdfdemo.MuPDFCancellableTaskDefinition
+com/artifex/mupdfdemo/Separation.java
+ com.artifex.mupdfdemo.Separation
+com/artifex/mupdfdemo/FilePicker.java
+ com.artifex.mupdfdemo.FilePicker
+ com.artifex.mupdfdemo.FilePicker$FilePickerSupport
+com/artifex/mupdfdemo/OutlineActivity.java
+ com.artifex.mupdfdemo.OutlineActivity
+com/artifex/mupdfdemo/MuPDFReflowAdapter.java
+ com.artifex.mupdfdemo.MuPDFReflowAdapter
+com/artifex/mupdfdemo/Stepper.java
+ com.artifex.mupdfdemo.Stepper
+ com.artifex.mupdfdemo.Stepper$1
+ com.artifex.mupdfdemo.Stepper$2
+com/artifex/mupdfdemo/ProductsPlistParsing.java
+ com.artifex.mupdfdemo.ProductsPlistParsing
+com/artifex/mupdfdemo/LinkInfoInternal.java
+ com.artifex.mupdfdemo.LinkInfoInternal
+com/cgd/ebook/boighor/model/GuestAuthInfo.java
+ com.cgd.ebook.boighor.model.GuestAuthInfo
+com/artifex/mupdfdemo/Annotation.java
+ com.artifex.mupdfdemo.Annotation
+ com.artifex.mupdfdemo.Annotation$Type
+com/artifex/mupdfdemo/MuPDFAlert.java
+ com.artifex.mupdfdemo.MuPDFAlert
+ com.artifex.mupdfdemo.MuPDFAlert$ButtonGroupType
+ com.artifex.mupdfdemo.MuPDFAlert$ButtonPressed
+ com.artifex.mupdfdemo.MuPDFAlert$IconType
+com/artifex/mupdfdemo/PrintDialogActivity.java
+ com.artifex.mupdfdemo.PrintDialogActivity
+ com.artifex.mupdfdemo.PrintDialogActivity$1
+ com.artifex.mupdfdemo.PrintDialogActivity$PrintDialogJavaScriptInterface
+ com.artifex.mupdfdemo.PrintDialogActivity$PrintDialogWebClient
+com/cgd/ebook/boighor/model/BookMarkInfo.java
+ com.cgd.ebook.boighor.model.BookMarkInfo
+com/artifex/mupdfdemo/MuPDFReflowView.java
+ com.artifex.mupdfdemo.MuPDFReflowView
+ com.artifex.mupdfdemo.MuPDFReflowView$1
+ com.artifex.mupdfdemo.MuPDFReflowView$1$1
+ com.artifex.mupdfdemo.MuPDFReflowView$2
+ com.artifex.mupdfdemo.MuPDFReflowView$3
+com/cgd/ebook/boighor/lib/BookDatabase.java
+ com.cgd.ebook.boighor.lib.BookDatabase
+com/artifex/mupdfdemo/BuildConfig.java
+ com.artifex.mupdfdemo.BuildConfig
+com/artifex/mupdfdemo/WidgetType.java
+ com.artifex.mupdfdemo.WidgetType
+com/artifex/mupdfdemo/OutlineItem.java
+ com.artifex.mupdfdemo.OutlineItem
+com/artifex/mupdfdemo/ChoosePDFAdapter.java
+ com.artifex.mupdfdemo.ChoosePDFAdapter
+ com.artifex.mupdfdemo.ChoosePDFAdapter$1
+com/artifex/mupdfdemo/ChoosePDFActivity.java
+ com.artifex.mupdfdemo.ChoosePDFActivity
+ com.artifex.mupdfdemo.ChoosePDFActivity$1
+ com.artifex.mupdfdemo.ChoosePDFActivity$2
+ com.artifex.mupdfdemo.ChoosePDFActivity$2$1
+ com.artifex.mupdfdemo.ChoosePDFActivity$2$2
+ com.artifex.mupdfdemo.ChoosePDFActivity$2$3
+ com.artifex.mupdfdemo.ChoosePDFActivity$2$4
+ com.artifex.mupdfdemo.ChoosePDFActivity$3
+ com.artifex.mupdfdemo.ChoosePDFActivity$4
+ com.artifex.mupdfdemo.Purpose

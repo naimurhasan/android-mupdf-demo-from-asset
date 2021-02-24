@@ -1,0 +1,72 @@
+com/artifex/mupdf/viewer/OutlineActivity.java
+ com.artifex.mupdf.viewer.OutlineActivity
+ com.artifex.mupdf.viewer.OutlineActivity$Item
+com/artifex/mupdf/viewer/ReaderView.java
+ com.artifex.mupdf.viewer.ReaderView
+ com.artifex.mupdf.viewer.ReaderView$1
+ com.artifex.mupdf.viewer.ReaderView$2
+ com.artifex.mupdf.viewer.ReaderView$ViewMapper
+com/artifex/mupdf/viewer/SearchTask.java
+ com.artifex.mupdf.viewer.ProgressDialogX
+ com.artifex.mupdf.viewer.SearchTask
+ com.artifex.mupdf.viewer.SearchTask$1
+ com.artifex.mupdf.viewer.SearchTask$2
+ com.artifex.mupdf.viewer.SearchTask$2$1
+com/artifex/mupdf/viewer/BuildConfig.java
+ com.artifex.mupdf.viewer.BuildConfig
+com/artifex/mupdf/viewer/PageView.java
+ com.artifex.mupdf.viewer.OpaqueImageView
+ com.artifex.mupdf.viewer.PageView
+ com.artifex.mupdf.viewer.PageView$1
+ com.artifex.mupdf.viewer.PageView$2
+ com.artifex.mupdf.viewer.PageView$2$1
+ com.artifex.mupdf.viewer.PageView$3
+ com.artifex.mupdf.viewer.PageView$4
+ com.artifex.mupdf.viewer.PageView$5
+ com.artifex.mupdf.viewer.PageView$6
+ com.artifex.mupdf.viewer.PageView$7
+com/artifex/mupdf/viewer/SearchTaskResult.java
+ com.artifex.mupdf.viewer.SearchTaskResult
+com/artifex/mupdf/viewer/Stepper.java
+ com.artifex.mupdf.viewer.Stepper
+ com.artifex.mupdf.viewer.Stepper$1
+ com.artifex.mupdf.viewer.Stepper$2
+com/artifex/mupdf/viewer/CancellableTaskDefinition.java
+ com.artifex.mupdf.viewer.CancellableTaskDefinition
+com/artifex/mupdf/viewer/MuPDFCore.java
+ com.artifex.mupdf.viewer.MuPDFCore
+com/artifex/mupdf/viewer/DocumentActivity.java
+ com.artifex.mupdf.viewer.DocumentActivity
+ com.artifex.mupdf.viewer.DocumentActivity$1
+ com.artifex.mupdf.viewer.DocumentActivity$10
+ com.artifex.mupdf.viewer.DocumentActivity$11
+ com.artifex.mupdf.viewer.DocumentActivity$12
+ com.artifex.mupdf.viewer.DocumentActivity$13
+ com.artifex.mupdf.viewer.DocumentActivity$14
+ com.artifex.mupdf.viewer.DocumentActivity$15
+ com.artifex.mupdf.viewer.DocumentActivity$16
+ com.artifex.mupdf.viewer.DocumentActivity$17
+ com.artifex.mupdf.viewer.DocumentActivity$18
+ com.artifex.mupdf.viewer.DocumentActivity$19
+ com.artifex.mupdf.viewer.DocumentActivity$2
+ com.artifex.mupdf.viewer.DocumentActivity$20
+ com.artifex.mupdf.viewer.DocumentActivity$21
+ com.artifex.mupdf.viewer.DocumentActivity$22
+ com.artifex.mupdf.viewer.DocumentActivity$23
+ com.artifex.mupdf.viewer.DocumentActivity$24
+ com.artifex.mupdf.viewer.DocumentActivity$3
+ com.artifex.mupdf.viewer.DocumentActivity$4
+ com.artifex.mupdf.viewer.DocumentActivity$5
+ com.artifex.mupdf.viewer.DocumentActivity$6
+ com.artifex.mupdf.viewer.DocumentActivity$7
+ com.artifex.mupdf.viewer.DocumentActivity$8
+ com.artifex.mupdf.viewer.DocumentActivity$9
+ com.artifex.mupdf.viewer.DocumentActivity$TopBarMode
+com/artifex/mupdf/viewer/CancellableAsyncTask.java
+ com.artifex.mupdf.viewer.CancellableAsyncTask
+ com.artifex.mupdf.viewer.CancellableAsyncTask$1
+com/artifex/mupdf/viewer/PageAdapter.java
+ com.artifex.mupdf.viewer.PageAdapter
+ com.artifex.mupdf.viewer.PageAdapter$1
+com/artifex/mupdf/viewer/MuPDFCancellableTaskDefinition.java
+ com.artifex.mupdf.viewer.MuPDFCancellableTaskDefinition

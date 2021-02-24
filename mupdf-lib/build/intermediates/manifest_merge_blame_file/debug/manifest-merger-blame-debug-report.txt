@@ -1,0 +1,266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.artifex.mupdf.viewer" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml
+8
+9    <application>
+9-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:5:2-97:16
+10        <activity
+10-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:6:3-91:14
+11            android:name="com.artifex.mupdf.viewer.DocumentActivity"
+11-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:7:4-36
+12            android:configChanges="orientation|screenSize|keyboardHidden" >
+12-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:8:4-65
+13            <intent-filter>
+13-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:10:4-25:20
+14
+15                <!-- match content and file requests with known mime-type -->
+16                <action android:name="android.intent.action.VIEW" />
+16-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:12:5-57
+16-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:12:13-54
+17
+18                <category android:name="android.intent.category.BROWSABLE" />
+18-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:13:5-66
+18-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:13:15-63
+19                <category android:name="android.intent.category.DEFAULT" />
+19-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:14:5-64
+19-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:14:15-61
+20
+21                <data android:scheme="content" />
+21-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+21-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:11-35
+22                <data android:scheme="file" />
+22-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+22-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:11-35
+23                <data android:mimeType="application/pdf" />
+23-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+23-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+24                <data android:mimeType="application/vnd.ms-xpsdocument" />
+24-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+24-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+25                <data android:mimeType="application/oxps" />
+25-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+25-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+26                <data android:mimeType="application/x-cbz" />
+26-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+26-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+27                <data android:mimeType="application/vnd.comicbook+zip" />
+27-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+27-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+28                <data android:mimeType="application/epub+zip" />
+28-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+28-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+29                <data android:mimeType="application/x-fictionbook" />
+29-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+29-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+30                <data android:mimeType="text/xml" />
+30-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+30-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+31            </intent-filter>
+32            <intent-filter>
+32-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:26:4-57:20
+33
+34                <!-- match file requests with path and no mime-type -->
+35                <action android:name="android.intent.action.VIEW" />
+35-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:12:5-57
+35-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:12:13-54
+36
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:13:5-66
+37-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:13:15-63
+38                <category android:name="android.intent.category.DEFAULT" />
+38-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:14:5-64
+38-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:14:15-61
+39
+40                <data android:scheme="file" />
+40-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+40-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:11-35
+41                <data android:host="*" />
+41-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+41-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:32:11-27
+42                <data android:pathPattern=".*\\.pdf" />
+42-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+42-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+43                <data android:pathPattern=".*\\.xps" />
+43-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+43-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+44                <data android:pathPattern=".*\\.oxps" />
+44-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+44-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+45                <data android:pathPattern=".*\\.cbz" />
+45-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+45-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+46                <data android:pathPattern=".*\\.epub" />
+46-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+46-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+47                <data android:pathPattern=".*\\.fb2" />
+47-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+47-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+48                <data android:pathPattern=".*\\..*\\.pdf" />
+48-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+48-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+49                <data android:pathPattern=".*\\..*\\.xps" />
+49-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+49-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+50                <data android:pathPattern=".*\\..*\\.oxps" />
+50-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+50-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+51                <data android:pathPattern=".*\\..*\\.cbz" />
+51-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+51-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+52                <data android:pathPattern=".*\\..*\\.epub" />
+52-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+52-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+53                <data android:pathPattern=".*\\..*\\.fb2" />
+53-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+53-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+54                <data android:pathPattern=".*\\..*\\..*\\.pdf" />
+54-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+54-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+55                <data android:pathPattern=".*\\..*\\..*\\.xps" />
+55-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+55-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+56                <data android:pathPattern=".*\\..*\\..*\\.oxps" />
+56-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+56-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+57                <data android:pathPattern=".*\\..*\\..*\\.cbz" />
+57-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+57-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+58                <data android:pathPattern=".*\\..*\\..*\\.epub" />
+58-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+58-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+59                <data android:pathPattern=".*\\..*\\..*\\.fb2" />
+59-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+59-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+60                <data android:pathPattern=".*\\..*\\..*\\..*\\.pdf" />
+60-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+60-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+61                <data android:pathPattern=".*\\..*\\..*\\..*\\.xps" />
+61-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+61-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+62                <data android:pathPattern=".*\\..*\\..*\\..*\\.oxps" />
+62-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+62-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+63                <data android:pathPattern=".*\\..*\\..*\\..*\\.cbz" />
+63-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+63-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+64                <data android:pathPattern=".*\\..*\\..*\\..*\\.epub" />
+64-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+64-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+65                <data android:pathPattern=".*\\..*\\..*\\..*\\.fb2" />
+65-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+65-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+66            </intent-filter>
+67            <intent-filter>
+67-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:58:4-90:20
+68
+69                <!-- match file scheme requests with path and any mime-type -->
+70                <action android:name="android.intent.action.VIEW" />
+70-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:12:5-57
+70-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:12:13-54
+71
+72                <category android:name="android.intent.category.BROWSABLE" />
+72-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:13:5-66
+72-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:13:15-63
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:14:5-64
+73-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:14:15-61
+74
+75                <data android:scheme="file" />
+75-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+75-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:11-35
+76                <data android:host="*" />
+76-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+76-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:32:11-27
+77                <data android:pathPattern=".*\\.pdf" />
+77-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+77-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+78                <data android:pathPattern=".*\\.xps" />
+78-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+78-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+79                <data android:pathPattern=".*\\.oxps" />
+79-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+79-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+80                <data android:pathPattern=".*\\.cbz" />
+80-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+80-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+81                <data android:pathPattern=".*\\.epub" />
+81-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+81-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+82                <data android:pathPattern=".*\\.fb2" />
+82-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+82-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+83                <data android:pathPattern=".*\\..*\\.pdf" />
+83-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+83-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+84                <data android:pathPattern=".*\\..*\\.xps" />
+84-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+84-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+85                <data android:pathPattern=".*\\..*\\.oxps" />
+85-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+85-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+86                <data android:pathPattern=".*\\..*\\.cbz" />
+86-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+86-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+87                <data android:pathPattern=".*\\..*\\.epub" />
+87-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+87-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+88                <data android:pathPattern=".*\\..*\\.fb2" />
+88-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+88-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+89                <data android:pathPattern=".*\\..*\\..*\\.pdf" />
+89-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+89-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+90                <data android:pathPattern=".*\\..*\\..*\\.xps" />
+90-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+90-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+91                <data android:pathPattern=".*\\..*\\..*\\.oxps" />
+91-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+91-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+92                <data android:pathPattern=".*\\..*\\..*\\.cbz" />
+92-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+92-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+93                <data android:pathPattern=".*\\..*\\..*\\.epub" />
+93-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+93-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+94                <data android:pathPattern=".*\\..*\\..*\\.fb2" />
+94-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+94-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+95                <data android:pathPattern=".*\\..*\\..*\\..*\\.pdf" />
+95-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+95-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+96                <data android:pathPattern=".*\\..*\\..*\\..*\\.xps" />
+96-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+96-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+97                <data android:pathPattern=".*\\..*\\..*\\..*\\.oxps" />
+97-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+97-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+98                <data android:pathPattern=".*\\..*\\..*\\..*\\.cbz" />
+98-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+98-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+99                <data android:pathPattern=".*\\..*\\..*\\..*\\.epub" />
+99-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+99-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+100                <data android:pathPattern=".*\\..*\\..*\\..*\\.fb2" />
+100-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+100-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:33:11-41
+101                <data android:mimeType="*/*" />
+101-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:15:5-38
+101-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:17:11-45
+102            </intent-filter>
+103        </activity>
+104        <activity
+104-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:92:3-96:14
+105            android:name="com.artifex.mupdf.viewer.OutlineActivity"
+105-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:93:4-35
+106            android:configChanges="orientation|screenSize|keyboardHidden" >
+106-->C:\Users\Dell\AndroidStudioProjects\MyApplication5\mupdf-lib\src\main\AndroidManifest.xml:94:4-65
+107        </activity>
+108    </application>
+109
+110</manifest>

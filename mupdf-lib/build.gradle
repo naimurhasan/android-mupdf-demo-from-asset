@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+group = 'com.artifex.mupdf'
+version = '1.18.0'
+
+dependencies {
+	implementation 'androidx.appcompat:appcompat:1.1.+'
+	if (file('../jni/build.gradle').isFile())
+		api project(':jni')
+	else
+		api 'com.artifex.mupdf:fitz:1.18.0'
+}
+
+android {
+	compileSdkVersion 28
+	defaultConfig {
+		minSdkVersion 16
+		targetSdkVersion 28
+	}
+}
+
+uploadArchives {
+	repositories {
+		mavenDeployer {
+			if (project.hasProperty('MAVEN_REPO')) {
+				repository(url: MAVEN_REPO)
+			} else {
+				repository(url: "file://${System.properties['user.home']}/MAVEN")
+			}
+			pom {
+				artifactId = 'viewer'
+				project {
+					licenses {
+						license {
+							name 'GNU Affero General Public License'
+							url 'https://www.gnu.org/licenses/agpl-3.0.html'
+						}
+					}
+				}
+			}
+		}
+	}
+}
